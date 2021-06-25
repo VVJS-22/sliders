@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="b1 opacity">slide1</div>
-        <div class="b2 opacity">slide2</div>
-        <div class="b3 opacity">slide3</div>
+        <siv class="slide-deck">
+            <div class="b1">slide1</div>
+            <div class="b2">slide2</div>
+            <div class="b3">slide3</div>
+        </siv>
     </div>
     <div class="button-wrapper">
-        <button id="b1" onclick="show(this)">1</button>
-        <button id="b2" onclick="show(this)">2</button>
-        <button id="b3" onclick="show(this)">3</button>
+        <button id="b1" onclick="show(this,'0')">1</button>
+        <button id="b2" onclick="show(this,'-100')">2</button>
+        <button id="b3" onclick="show(this,'-200')">3</button>
     </div>
     <script src="script.js"></script>
 </body>
